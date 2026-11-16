@@ -1,0 +1,18 @@
+# Thư viện cài bằng npm (rất nặng, tự cài lại bằng "npm install")
+node_modules/
+
+# Thư mục sinh ra khi build (đóng gói) frontend
+dist/
+
+# File chứa mật khẩu và khóa bí mật (mỗi người tự tạo từ .env.example)
+.env
+
+# File nhật ký lỗi
+*.log
+
+# Cài đặt riêng của VS Code trên máy bạn
+.vscode/
+
+# File rác của hệ điều hành
+.DS_Store
+Thumbs.db
